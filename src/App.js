@@ -7,6 +7,15 @@ import EmployeesAddForm from './components/employees-add-form/emploeyees-add-for
 
 
 function App() {
+  // имитация
+  const data = [
+    { name: 'Alex A.', salary: 800, increase: false },
+    { name: 'John B.', salary: 3000, increase: true },
+    { name: 'Max C.', salary: 5000, increase: false }
+  ]
+
+
+
   return (
     <div className="App">
       <AppInfo />
@@ -15,7 +24,7 @@ function App() {
         <SearchPanel />
         <AppFilter />
       </div>
-      <EmployeesList />
+      <EmployeesList data={data} />
       <EmployeesAddForm />
 
     </div>
