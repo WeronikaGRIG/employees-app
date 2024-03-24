@@ -9,9 +9,9 @@ import EmployeesAddForm from './components/employees-add-form/emploeyees-add-for
 function App() {
   // имитация
   const data = [
-    { name: 'Alex A.', salary: 800, increase: false },
-    { name: 'John B.', salary: 3000, increase: true },
-    { name: 'Max C.', salary: 5000, increase: false }
+    { name: 'Alex A.', salary: 800, increase: false, id: 1 },
+    { name: 'John B.', salary: 3000, increase: true, id: 2 },
+    { name: 'Max C.', salary: 5000, increase: false, id: 3 }
   ]
 
 
